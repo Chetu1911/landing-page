@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #333;
+    background: #000000;
     padding: 15px 60px;
     position: fixed;
     top: 0;
@@ -246,7 +246,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: white;
+    background: rgba(255, 255, 255, 0.526);
+    
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -259,7 +260,7 @@ body {
     width: 90%;
     padding: 9px;
     margin: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
     color: #061c23;
 }
