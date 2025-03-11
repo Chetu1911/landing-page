@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <img src="images/logo.png" alt="Company Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- first Section -->
+    <section id="home" class="first-section">
+        <div class="first-content">
+            <h1>Welcome to Our Innovative Platform</h1>
+            <button class="explore-btn">Explore Projects</button>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Our Recent Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="images/project1.jpeg" alt="Project 1">
+                <h3>Project One</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/project1.jpeg" alt="Project 2">
+                <h3>Project Two</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/project1.jpeg" alt="Project 3">
+                <h3>Project Three</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/project1.jpeg" alt="Project 4">
+                <h3>Project Four</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/project1.jpeg" alt="Project 1">
+                <h3>Project five</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/project1.jpeg" alt="Project 2">
+                <h3>Project six</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/project1.jpeg" alt="Project 3">
+                <h3>Project seven</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/project1.jpeg" alt="Project 4">
+                <h3>Project eight</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="sub-about">
+            <img src="images/background-image.jpeg" alt="loading">
+            <p><span>Company heading</span> ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged.</p>
+
+        </div>
+        
+    </section>
+
+    
+
+    <!-- Contact Us (Popup) -->
+    <div id="contact-popup" class="contact-popup">
+        <div class="contact-form">
+            <span class="close-btn">&times;</span>
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <!--contact us -->
+    <section class="contact-container" id="contact-us">
+        <div class="contact-left">
+            <h2>Connect Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae architecto reiciendis provident
+                quaerat dolores eum cumque, deleniti asperiores ipsum, aut nobis non facilis animi consequuntur,
+                doloribus tenetur laborum molestias nesciunt!</p>
+            <div class="email-box">
+                <span class="email-icon">📧</span>
+                <span class="email-text">xyz@gmail.com</span>
+            </div>
+        </div>
+
+        <div class="contact-right">
+            <form action="#" method="post">
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" required>
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="3"></textarea>
+                </div>
+
+                <p class="privacy-text">
+                    By submitting your information, you agree to the <a href="#">privacy policy</a> and to learn more
+                    about offers and promotions.
+                </p>
+
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-company">
+                <img src="images/logo.png" alt="Company Logo" class="footer-logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum is simply dummy text of the
+                    printing
+                    and typesetting industry. </p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 Company Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
